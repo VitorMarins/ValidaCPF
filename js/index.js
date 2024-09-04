@@ -13,7 +13,6 @@ function ValidarCPF()
 
 function mudarhtml(dados){
     let resul = document.querySelector("#resul");
-    
     if(dados.valid == true){
         resul.innerHTML = `<h3 id="resul">CPF Válido</h3>`;
         resul.style.color = "green";
